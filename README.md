@@ -1,4 +1,4 @@
-# QuadGo [![GoDoc](https://godoc.org/github.com/Tskken/quadpix?status.svg)](https://godoc.org/github.com/Tskken/quadpix) ![Go Report Card](https://goreportcard.com/badge/github.com/Tskken/quadpix) [![Build Status](https://travis-ci.org/Tskken/quadpix.svg?branch=master)](https://travis-ci.org/Tskken/quadpix)
+# QuadGo [![GoDoc](https://godoc.org/github.com/Tskken/quadpix?status.svg)](https://godoc.org/github.com/Tskken/quadpix) [![Go Report Card](https://goreportcard.com/badge/github.com/Tskken/Quadpix)](https://goreportcard.com/report/github.com/Tskken/Quadpix) [![Build Status](https://travis-ci.org/Tskken/quadpix.svg?branch=master)](https://travis-ci.org/Tskken/quadpix)
  
 Quadpix is a quad-tree implementation spawned from my other QuadGo library but designed to directly intigrate with [pixel](https://github.com/faiface/pixel).
 As this library is a work off of the existing QuadGo library much of the structure is the same but a few things have been changed to fallow some of the pixel naming conventions and styles.
