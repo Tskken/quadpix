@@ -1,0 +1,15 @@
+dist: xenial
+
+language: go
+
+go:
+  - tip
+
+install:
+  - go get -t ./...
+
+notifications:
+  email: false
+
+script:
+  - go test -i ./...
