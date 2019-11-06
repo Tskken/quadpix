@@ -80,7 +80,7 @@ If you note there is a return type of error on Remove(). If the given entity is 
  
 One important thing to understand is that the given entity to Remove() has to at least have the same ID and Bound as the entity you want to remove. This is because when trying to find the entity to remove it uses the entity’s ID and Bound to check if the entity found is the one you want to remove.
  
-#### Retrieving entities from the tree
+## Retrieving entities from the tree
  
 To find entities in the tree you need to use quadpix.Retrieve(). This function takes a pixel.Rect to search the tree with and will return all entities from nodes that that given pixel.Rect intersects with.
  
@@ -174,6 +174,6 @@ If you have any ideas for new features or find any bugs with this library please
 - Re-write benchmarks for the library.
 - More tests for possible edge cases.
  
-## License
+# License
  
 [MIT](LICENSE)
